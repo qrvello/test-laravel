@@ -25,9 +25,10 @@ composer install
 ~~~
 
 - Copy .env.example and save it as .env.
-- Configure database and then run:
+- Create a database test_laravel and configure in .env, then run:
   
 ~~~~bash
+php artisan key:generate
 php artisan migrate
 ~~~~
 
